@@ -36,14 +36,14 @@ watch(
                 <router-link to="/" :class="{ 'active': $route.name === 'home' }" class="header-item">首页</router-link>
             </li>
             <li>
-                <router-link to="/products" :class="{ 'active': $route.name === 'Products' }"
+                <router-link to="/products" :class="{ 'active': $route.name === 'products' }"
                     class="header-item">产品活动</router-link>
             </li>
             <li>
-                <router-link to="/news" :class="{ 'active': $route.name === 'News' }" class="header-item">新闻动态</router-link>
+                <router-link to="/news" :class="{ 'active': $route.name === 'news' }" class="header-item">新闻动态</router-link>
             </li>
             <li>
-                <router-link to="/about" :class="{ 'active': $route.name === 'About' }"
+                <router-link to="/about" :class="{ 'active': $route.name === 'about' }"
                     class="header-item">关于我们</router-link>
             </li>
         </ul>

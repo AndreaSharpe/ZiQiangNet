@@ -29,7 +29,7 @@ const toggleImage = (index) => {
                     <p>生活</p>
                     <p>指南</p>
                 </div>
-                <a href="https://mp.weixin.qq.com/s/tvTe1JO6lW1DSUhXbLX3Lg" class="article"><img
+                <a href="https://mp.weixin.qq.com/s/tvTe1JO6lW1DSUhXbLX3Lg" class="article" target="_blank"><img
                         src="/public/img/welcome.jpg" alt=""></a>
                 <a href="https://mp.weixin.qq.com/s?__biz=MzkzMzU2MTM5OQ==&mid=2247503666&idx=1&sn=45ae22dca866dde52dbd010ed96ec0e7&chksm=c2481a6af53f937c2dacf5e74564c9141e433553ac073785241da7636c5b5c3b3b154040d055&scene=126#rd"
                     class="article" target="_blank"><img src="/public/img/recruitment.jpg" alt=""></a>
@@ -303,4 +303,5 @@ const toggleImage = (index) => {
             }
         }
     }
-}</style>
+}
+</style>

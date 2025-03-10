@@ -34,7 +34,7 @@ const router = createRouter({
       component: AboutDetailView,
       props: route => ({
         id: route.params.id,        // 获取 `id` 参数
-        department: JSON.parse(route.params.department || '{}'), // 解析 `department` 参数
+        department: JSON.parse(Array.isArray(route.params.department) ? route.params.department[0] : route.params.department || '{}'), // 解析 `department` 参数
       }), 
     },
 

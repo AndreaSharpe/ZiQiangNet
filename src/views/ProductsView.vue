@@ -53,8 +53,8 @@ onMounted(() => {
         <section class="products-center">
             <!-- 类型切换按钮 -->
             <div class="button-box">
-                <button @click="activeType = '运营类产品'">运营类产品</button>
-                <button @click="activeType = '技术类产品'">技术类产品</button>
+                <button @click="activeType = '运营类产品'" :class="{ active: activeType === '运营类产品'}">运营类产品</button>
+                <button @click="activeType = '技术类产品'" :class="{ active: activeType === '技术类产品' }">技术类产品</button>
             </div>
             <!-- 产品列表 -->
             <div class="list-box">
@@ -262,11 +262,13 @@ onMounted(() => {
                 color: white;
                 cursor: pointer;
                 font-family: PingFang SC;
-                font-weight: 600;
+                font-weight: 500;
                 font-size: 1.6em;
                 letter-spacing: 0%;
                 text-align: center;
-
+            }
+            .active{
+                font-weight: 600;
             }
         }
 

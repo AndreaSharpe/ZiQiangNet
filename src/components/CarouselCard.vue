@@ -44,6 +44,7 @@ const props = defineProps({
     transition: 0.2s ease-in-out;
     position: relative;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .img {
